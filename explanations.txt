@@ -1,0 +1,11 @@
+﻿Question 1
+question1(s,t) takes two inputs s and t. lists and sorts string t. The function check_anagram compares part of string s and sorted list of string t. Time efficiency for sorting is O(n*log(n))
+
+Question 2
+Within the for loop there is two if conditions first when the number of alphabets are odd in the string and the other when the number is even. The ‘check(s, c1, c2)’ investigates if the string ‘s’ is palindromic. Efficiency: O(N^2) time and O(1) space.
+
+Question 3
+Uses Kruskal algorithm for minimum spanning tree.
+
+Question 4
+

@@ -6,6 +6,7 @@ Given two strings s and t, determine whether some anagram of t is a substring of
 """
 
 def question1(s, t):
+    if (len(t)==0): return "Please input two strings"
     len_t = len(t)
     len_s = len(s)
     list_t = list(t)
@@ -21,8 +22,8 @@ def check_anagram(part_s, list_t):
     part_s.sort()   
     return part_s == list_t
 
-def main():
-    print question1("udacity", "ud")
 
-if __name__ == '__main__':
-    main()
+print question1("udacity", "ud")
+print question1("udacity", "")
+print question1("udacity", "lp")
+
